@@ -1,0 +1,21 @@
+;; 1
+;; http://clojurescriptkoans.com/#sets/1
+;; You can create a set by converting another collection
+
+(= #{3} (set '(3)))
+
+
+
+;; 2
+;; http://clojurescriptkoans.com/#sets/2
+;; Counting them is like counting other collections
+
+(= 3 (count #{1 2 3}))
+
+
+
+;; 3
+;; http://clojurescriptkoans.com/#sets/3
+;; Remember that a set is a *mathematical* set
+
+(= #{1 2 3 4 5} (set '(1 1 2 2 3 3 4 4 5 5)))
